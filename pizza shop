@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Lista de Web</title>
+	</head>
+		
+	<body>
+		<form action="action_page.php">
+		<table border="1">
+			<tr>
+				<th colspan="3">Pizza Sop 2.0</th>
+			</tr>
+			<tr>
+				<td> <label for="nome">Nome: <br></label> </td>    
+				<td> <input type="text" name="nome" value=" " /></td>
+			</tr>
+			<tr> 
+				<td> <label for="Tipo de Pizza">Tipo de Pizza<br></label> </td>  
+				<td> <input type="radio" name="tipo" value="Suprema" checked> suprema<br>
+				<input type="radio" name="tipo" value="vegana" checked>Vegana<br>
+				<input type="radio" name="tipo" value="Hawaiian"> Hawaiian<br></td>
+			</tr>
+			<tr> 
+				<td> <label for="Tipo de molho">Tipo de molho<br></label> </td>  
+				<td> <select name="tipos">
+				<option value="Tomate">Tomate</option>
+  				<option value="Outro">Outro</option>
+				</select>
+			</tr>
+			<tr> 
+				<td> <label for="extra">Extras<br></label> </td>  
+				<td> <input type="checkbox" name="extra" value="queixo extra">queijo extra<br>
+				<input type="checkbox" name="extra" value="sem glutem">sem glutem<br></td>
+			</tr>
+
+			<tr> 
+				<td colspan="3"> <label for="txt">Intrução de entrega<br></label>
+				<textarea name="menssage." rows="10" cols="30"> Intrução de entrega </textarea></td>
+			</tr>
+			<tr>
+				<td colspan="3"> <button type="button" value="Enviar">Enviar"!</button></td>
+			</tr>
+	</table>
+	</form>
+	</boby>
+</html>
